@@ -1,0 +1,31 @@
+.container {
+    margin: 50px 0;
+}
+
+.card {
+    margin:  0 2% !important; 
+}
+
+.green {
+    border-bottom: 10px solid green;
+}
+
+.yellow {
+    border-bottom: 10px solid yellow;
+}
+
+.red {
+    border-bottom: 10px solid red;
+}
+@media only screen and (max-width: 600px) {
+    .container
+    {
+        width: 50%;
+        text-align: center;
+        margin: 50px 100px;
+        }
+    .card {
+        height: 150px;
+        margin:  15px 2% !important; 
+        }
+  }
